@@ -1,18 +1,21 @@
-#ifndef HELP_H
-#define _HELP_H
-# include <string>
+#ifndef ASSIGNMENT0_H
+#define ASSIGNMENT0_H
+#include <string>
 using namespace std;
 
 class Assignment0
 	{
 	private:
-		 int  value = 0;
-		  string Characters = " ";
+		 int  Ages;
+		  string Names;
+		  string carModel;
 	public:
-		void setValue (int);
-		int getValue ();
-		void setCharacters ();
-		int getCharacters ();
+		void setAges (int);
+		int getAges ();
+		void setcarModel ();
+		string getcarModel ();
+		void getNames();
+		string setNames();
 	};
 #endif 
 
